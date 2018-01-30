@@ -8,6 +8,22 @@ and open the template in the editor.
     Author     : Mark
 */
 
+html
+{
+    background-image: url("knot.jpg");
+    margin: 0.5cm;
+}
+
+body p,li,h5,td
+{
+    font-family: sans-serif;
+}
+
+a
+{
+    color: black;
+}
+
 .tableofcontents td
 {
     border: 1px solid;
@@ -24,6 +40,11 @@ and open the template in the editor.
 .bioparagraphs
 {
     width: 50%;
+}
+
+.sitename
+{
+    font-family: arial black;
 }
 
 #homepage-link
