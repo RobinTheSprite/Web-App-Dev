@@ -3,6 +3,37 @@
 Mark Underwood, Visiting Student, M.Underwood2@nuigalway.ie
 -->
 <html>
+    <style>
+        .annoyingad
+        {
+            position: fixed;
+            top: 80%;
+            left: 75%;
+            background-color: yellow;
+        }
+
+        .annoyingad:hover
+        {
+            background-color: #ff0098;
+        }
+
+        .annoyingad p
+        {
+            font-size: 32px;
+            color: purple;
+        }
+
+        .annoyingad:hover p
+        {
+            color: yellow;
+        }
+
+        #homepage-link
+        {
+            width: 2cm; 
+            height: 2cm;
+        }
+    </style>
     <head>        
         <title>Biography: Snorri Sjulfarsson</title>
         <meta charset="UTF-8">
@@ -10,7 +41,7 @@ Mark Underwood, Visiting Student, M.Underwood2@nuigalway.ie
         <link rel="stylesheet" href="css/styles.css">        
     </head>
     <body id="top">    
-        <a> Home </a>   <!-- "Home" is a link because <p> and <h6> had too  -->
+        <a> Home: </a>   <!-- "Home" is a link because <p> and <h6> had too  -->
         <table>         <!-- much space around them --> 
             <tr>
                 <td>
@@ -57,6 +88,15 @@ Mark Underwood, Visiting Student, M.Underwood2@nuigalway.ie
                 </tr>
             </table>
         </nav>
+        
+        <a id="ad" href="https://downloadmoreram.com/">
+            <div class="annoyingad">
+                <p>
+                    Get Free RAM!!!
+                </p>
+            </div>
+        </a>
+        
         <section>
             <h3 id="earlylife"> Birth and Early Life </h3>
             <p class="bioparagraphs">

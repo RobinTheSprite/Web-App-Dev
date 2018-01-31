@@ -10,18 +10,52 @@ and open the template in the editor.
 
 html
 {
-    background-image: url("knot.jpg");
+    background-image: url("ice-blocks.jpg");
     margin: 0.5cm;
 }
 
-body p,li,h5,td
+body p,li,h3,h5,td
 {
     font-family: sans-serif;
 }
 
-a
+body p 
+{
+    font-size: 16px;
+    text-align: left;
+}
+
+body h5
+{
+    font-size: 20px;
+    text-align: left;
+}
+
+div
+{
+    float: left;
+}
+
+a:link
 {
     color: black;
+}
+
+a:visited
+{
+    color: black;
+}
+
+a:hover
+{
+    color: blue;
+}
+
+.tableofcontents
+{
+    border: 1px solid;
+    background-color: grey;
+    width: 50%;
 }
 
 .tableofcontents td
@@ -29,12 +63,15 @@ a
     border: 1px solid;
     padding: 0.25cm;
     text-align: center;
+    background-color: lightgrey;
 }
 
-.tableofcontents
+.tableofcontents td:nth-child(even)
 {
     border: 1px solid;
-    width: 50%;
+    padding: 0.25cm;
+    text-align: center;
+    background-color: lightblue;
 }
 
 .bioparagraphs
@@ -45,11 +82,5 @@ a
 .sitename
 {
     font-family: arial black;
-}
-
-#homepage-link
-{
-    width: 2cm; 
-    height: 2cm;
 }
 
